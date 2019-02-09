@@ -24,7 +24,7 @@ words.forEach((word, i) => {
     let span = document.createElement('span')
     span.style.setProperty('--n', i + 1)
     if (word=='Sherry'||word=='Jaggie'){
-        span.classList.add("highlight")
+        span.classList.add(word)
     }
     span.innerText = word
     dom.love.appendChild(span)

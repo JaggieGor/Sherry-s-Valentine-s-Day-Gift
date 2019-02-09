@@ -14,8 +14,18 @@ body {
     position: relative;
 }
 
-.love .highlight {
+.love .Jaggie {
     color: #E3E6C3;
+    font-size: 3em;
+    transform: translateY(-100%) rotateZ(-30deg);
+    text-shadow: 
+        0 0 0.1em black,
+        0 0 1em white;
+    z-index: 1;
+}
+
+.love .Sherry {
+    color: #F3C1AA;
     font-size: 3em;
     transform: translateY(-100%) rotateZ(-30deg);
     text-shadow: 
