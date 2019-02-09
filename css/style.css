@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-.love .Jaggie {
+.love #Jaggie {
     color: #E3E6C3;
     font-size: 3em;
     transform: translateY(-100%) rotateZ(-30deg);
@@ -24,7 +24,7 @@ body {
     z-index: 1;
 }
 
-.love .Sherry {
+.love #Sherry {
     color: #F3C1AA;
     font-size: 3em;
     transform: translateY(-100%) rotateZ(-30deg);
@@ -34,7 +34,7 @@ body {
     z-index: 1;
 }
 
-.love span {
+.love div {
     position: absolute;
     left: 0;
     color: #E6B450;
@@ -47,6 +47,25 @@ body {
     animation-delay: calc(20s / var(--particles) * var(--n) * -1);
     user-select: none;
 }
+
+.round_icon{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    width: 64px;
+    height: 64px;
+    background: transparent   no-repeat center center;
+    background-size: 16px auto;
+    margin-top: 8px;
+    box-shadow: 
+        0 0 0.1em black,
+        0 0 1em white;
+  } 
+ 
 
 
 

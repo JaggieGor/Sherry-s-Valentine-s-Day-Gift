@@ -21,11 +21,21 @@ const dom = {
 dom.love.style.setProperty('--particles', words.length)
 
 words.forEach((word, i) => {
-    let span = document.createElement('span')
-    span.style.setProperty('--n', i + 1)
+    let div = document.createElement('div')
+    div.style.setProperty('--n', i + 1)
     if (word=='Sherry'||word=='Jaggie'){
-        span.classList.add(word)
+        div.id=word
     }
-    span.innerText = word
-    dom.love.appendChild(span)
+    div.innerText = word
+    dom.love.appendChild(div)
 })
+
+let img =document.createElement('img')
+img.src="images/"+"Sherry"+".png"
+img.classList.add("round_icon")
+document.getElementById("Sherry").appendChild(img)
+
+let img2 =document.createElement('img')
+img2.src="images/"+"Jaggie"+".png"
+img2.classList.add("round_icon")
+document.getElementById("Jaggie").appendChild(img2)
