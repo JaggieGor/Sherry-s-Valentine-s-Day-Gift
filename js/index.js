@@ -39,3 +39,19 @@ let img2 =document.createElement('img')
 img2.src="images/"+"Jaggie"+".png"
 img2.classList.add("round_icon")
 document.getElementById("Jaggie").appendChild(img2)
+
+dom.love.addEventListener("click", function(e) {
+    e.preventDefault;
+
+    // -> removing the class
+    dom.love.childNodes.forEach((child ,i)=>{
+        if(child.classList.contains("paused_animation")){
+            child.classList.remove("paused_animation")
+            child.classList.add("running_animation")
+        }else {
+            child.classList.remove("running_animation")
+            child.classList.add("paused_animation")
+        }
+
+    })
+  }, false);

@@ -73,6 +73,14 @@ body {
     user-select: none;
 }
 
+.love .running_animation{
+    animation-play-state: running;
+}
+
+.love .paused_animation{
+    animation-play-state: paused;
+}
+
 .round_icon{
     display: block;
     margin: 0 auto;
@@ -87,7 +95,7 @@ body {
     background-size: 16px auto;
     margin-left: 8px;
     box-shadow: 
-        0 0 0.1em black,
+        0 0 0.1em #ffbdc6,
         0 0 1em white;
   } 
  
