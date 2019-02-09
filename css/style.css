@@ -9,6 +9,11 @@ body {
     overflow: hidden;
 }
 
+@font-face {
+    font-family: 'SweetieLove';
+    src: url('SweetieLove.ttf') format('truetype');
+}
+
 #web_bg{
     position:fixed;
     top: 0;
@@ -57,7 +62,7 @@ body {
     left: 0;
     color: #ea4c88;
     font-size: 1.8em;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'SweetieLove','Dosis', sans-serif;
     text-shadow: 0 0 0.5em white;
     animation: 
         x-move 10s ease-in-out infinite alternate,
