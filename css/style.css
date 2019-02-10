@@ -1,11 +1,13 @@
 body {
     margin: 0;
     height: 100vh;
+    display: -webkit-flex; /* Safari */
     display: flex;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     /* background-color: #173246; */
-    background-image: url(/images/background.jpg);
+    /* background-image: url(/images/background.jpg); */
     overflow: hidden;
 }
 
@@ -31,10 +33,33 @@ body {
     background-position: center 0;
   }
 
+#title{
+    display:table; 
+    vertical-align:middle;  
+    text-align: center; /*设置文本水平居中*/  
+    /* width:100%;    */
+    color: #ea4c88;
+    font-size: 3.8em;
+    font-family: 'SweetieLove','Dosis', sans-serif;
+    flex-grow: 1;
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 
+        0 0 0.1em #424153,
+        0 0 1em white;
+    }
+}
+
 .love {
+    display:table; 
+    vertical-align:middle; 
     width: 520px;
     height: 450px;
     position: relative;
+    flex-grow: 1;
 }
 
 .love #Jaggie {
