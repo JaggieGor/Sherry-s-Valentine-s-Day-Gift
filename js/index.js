@@ -1,5 +1,5 @@
 // const words = [
-//     '愛', 'Love', '冼', '美', '茵',
+//     '愛', 'Love',
 //     'Amor', 'Любовь', 'الحب', 'प्यार', 'Cinta',
 //     'Αγάπη', '사랑', 'Liefde', 'Dashuri', 'Каханне',
 //     'Ljubav', 'Láska', 'Armastus', 'Mahal', 'אהבה', 
@@ -13,7 +13,7 @@
 //     'Mahal', 'ярату', 'محبت', 'sopp', 'uthando', 
 //     'ความรัก', 'Aşk', 'Tình yêu', 'ליבע'];
 
-const words = "Jaggie love three things in this world . Sun , Moon and You . Sun for morning , Moon for night and Sherry forever .".split(' ');
+const words = "Jaggie loves three things in this world . Sun , Moon and You . Sun for morning , Moon for night and Sherry forever .".split(' ');
 const dom = {
     love: document.querySelector('.love')
 }
